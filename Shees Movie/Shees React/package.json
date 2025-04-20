@@ -1,5 +1,6 @@
 {
   "name": "shees-react",
+  "homepage": "https://Sheesikram20.github.io/Smart-Movie-Recommender/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +8,10 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+
   },
   "dependencies": {
     "appwrite": "^17.0.2",
